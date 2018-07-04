@@ -2,7 +2,7 @@
 
 **G**enerieke **O**ntsluiting **B**asisgegevens
 
-_An English version of this document can be found in README.en.md_
+_An English version of this document can be found in [README.en](./README.en.md)_
 
 ## Achtergrond
 
@@ -59,7 +59,7 @@ Er is daarom behoefte aan functionaliteit waarmee afnemers kunnen worden bediend
 Het project moet de consistentie, integriteit en kwaliteit van het gehele Amsterdamse stelsel van basisgegevens beheren,
 inclusief eisen die in het kader van de archiefwet aan informatiebeheer worden gesteld.
 
-## Globale werkwijze
+## Globale opbouw
 
 Het GOB project is een modulair opgebouwd systeem.
 
