@@ -58,7 +58,7 @@ There is therefore a need for functionality that enables customers to be served 
 The project must manage the consistency, integrity and quality of the entire basic data system of Amsterdam,
 including requirements for information management in the context of the archive law.
 
-## Global method
+## Global structure
 
 The GOB project is a modular system.
 
