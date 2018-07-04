@@ -2,6 +2,8 @@
 
 Generic Disclosure of Basic Data
 
+_Een Nederlandse versie van dit document is beschikbaar in [README](README.md)_
+
 ## Background
 
 Basic data is the raw material for a large number of municipal processes.
