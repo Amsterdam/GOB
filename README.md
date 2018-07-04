@@ -1,88 +1,89 @@
 # GOB
 
-**G**enerieke **O**ntsluiting **B**asisgegevens
+Generic Disclosure of Key Registrations
 
-_An English version of this document can be found in [README.en](./README.en.md)_
+_Een Nederlandse (beperkt onderhouden) versie van dit document is beschikbaar in [README.nl](README.nl.md)_
 
-## Achtergrond
+## Background
 
-Basisgegevens zijn de grondstof voor een groot aantal gemeentelijke processen.
-Zonder deze gegevens kunnen de processen niet worden uitgevoerd.
+Key registrations provide for basic data; the raw material for a large number of municipal processes.
+Without this data, the processes can not be executed.
 
-Basisgegevens worden bijgehouden in basisregistraties (door de wet voorgeschreven) en kernregistraties (door het college van B&W voorgeschreven).
-Basisinformatie is ervoor verantwoordelijk dat deze gegevens voldoen aan de wettelijke voorschriften en op de juiste manier worden gebruikt.
+Basic data are recorded in key registers (prescribed by law) and core registrations (prescribed by the Municipal Executive).
 
-Voor een deel worden deze gegevens uit een eigen gemeentelijke voorzieningen (bronsysteem) gehaald en voor een deel uit landelijke voorzieningen.
-Het probleem is dat al deze bronnen niet één-en-dezelfde gegevens-/berichtenstandaard gebruiken.  
-De binnengemeentelijke afnemers maken weer gebruik van verschillende systemen waarin de basisgegevens worden getoond of verwerkt.
+Some of these data are taken from their own municipal facilities (source system) and partly from national facilities.
+The problem is that all these sources do not use one and the same data / message standard.
+In-house customers make use of different systems in which the basic data are shown or processed.
 
-De zeven basisregistraties zijn:
-1. personen (BRP)
-2. adressen en gebouwen (BAG)
-3. waarde onroerende zaken (BR WOZ)
-4. kleinschalige topografie (BRT)
-5. grootschalige topografie (BGT)
-6. handelsregister (HR)
-7. kadaster (BRK).
+The seven key registers are:
+1. persons (BRP)
+2. addresses and buildings (BAG)
+3. value of immovable property (BR WOZ)
+4. small-scale topography (BRT)
+5. large-scale topography (BGT)
+6. Commercial register (HR)
+7. Land Registry (BRK).
 
-De acht kernregistraties zijn:
-1. de gemeentelijke beperkingenregistratie (Wkpb)
-2. het actueel hoogtebestand Nederland
-3. gebieden
+The eight core registrations are:
+1. the municipal restriction registration (Wkpb)
+2. the current height file in the Netherlands
+3. areas
 4. NAP
-5. luchtfoto's
-6. meetbouten
-7. monumenten
-8. panoramabeelden.
+5. aerial photographs
+6. measuring bolts
+7. monuments
+8. panorama images.
 
-Voor het ophalen van gegevens bij de bron of de landelijke voorziening, het beheer, de vertaling en de distributie van de basisgegevens zijn drie systemen in gebruik:
-- DIVA voor vastgoedgegevens
-- Makelaarsuite voor persoonsgegevens 
-- Handelsregister en Neuron Communicator voor BAG- en WOZ-gegevens
+Three systems are in use for retrieving data from the source or the national facility, the management, the translation and the distribution of basic data:
+- DIVA for real estate data
+- Makelaar suite for personal details
+- Handelsregister and Neuron Communicator for BAG and WOZ data
 
-Niet alle systemen kunnen de verschillende aanleveringen verwerken.
-Een ‘vertaling’ is daarom noodzakelijk.
-Binnen GOB worden de basisgegevens uit de verschillende bronregistraties opgeslagen, verwerkt en gedistribueerd in een formaat conform gedefinieerd op [Stelselpedia](https://www.amsterdam.nl/stelselpedia/|Stelselpedia) en [RSGB](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)).
+Not all systems can handle the different deliveries.
+A 'translation' is therefore necessary.
+Within GOB, basic data from the various source registrations are stored, processed and distributed in a format as defined in
+[Stelselpedia](https://www.amsterdam.nl/stelselpedia/|Stelselpedia) and
+[RSGB](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)).
 
-## Doel
+## Target
 
-Het doel van het project is de levering van kwalitatief hoogwaardige basisgegevens ten behoeve van gemeentelijke processen te garanderen tegen minimale beheerinspanningen en kosten.
+The target of the project is to guarantee the delivery of high-quality basic data for municipal processes against minimal management efforts and costs.
 
-Met als afgeleide doelstellingen:
-- Leveringen op maat
+With derived objectives:
+- Customized deliveries
 
-Veel afnemers hebben behoefte aan datasets die zijn samengesteld uit meerdere basisgegevens.
-Er is daarom behoefte aan functionaliteit waarmee afnemers kunnen worden bediend met leveringen op maat. 
+Many customers need data sets that are composed of multiple basic data.
+There is therefore a need for functionality that enables customers to be served with customized deliveries.
 
-- Integraal kwaliteitsbeheer van het stelsel
+- Integral quality management of the system
 
-Het project moet de consistentie, integriteit en kwaliteit van het gehele Amsterdamse stelsel van basisgegevens beheren,
-inclusief eisen die in het kader van de archiefwet aan informatiebeheer worden gesteld.
+The project must manage the consistency, integrity and quality of the entire basic data system of Amsterdam,
+including requirements for information management in the context of the archive law.
 
-## Globale opbouw
+## Global structure
 
-Het GOB project is een modulair opgebouwd systeem.
+The GOB project is a modular system.
 
-Elke component binnen GOB heeft een welafgebakende functie en zijn eventueel ook los van GOB inzetbaar.
-Voorbeelden van componenten zijn de import van Neuron data, opslag van Stelselpedia data, afleiden van mutaties op basis van een import.
+Each component within GOB has a well-defined function and can also be used separately from GOB.
+Examples of components are the import of Neuron data, storage of Systematic data, deduction of mutations based on an import.
 
-Communicatie tussen de componenten loopt via een Message Broker.
+Communication between the components runs over a Message Broker.
 
-Opslag van gegevens vindt plaats in een database.
+Storage of data takes place in a database.
 
-Alle componenten worden gevoed vanuit een op Stelselpedia en RSGB gebaseerd data formaat.
+All components are fed from a data format based on Stelselpedia and RSGB.
 
-Afhankelijkheden van specifieke message brokers of databases zijn geencapsuleerd.
-De keuze voor een specifieke message broker of database kan eventueel worden aangepast.
+Dependencies of specific message brokers or databases are encapsulated.
+The choice for a specific message broker or database can be adjusted if necessary.
 
-## Gebruikers
+## Users
 
-De gebruikers van GOB zijn ambtenaren, burgers en ondernemers.
+The users of GOB are civil servants, citizens and companies.
 
-Ambtenaren binnen de gemeente Amsterdam gebruiken de data ter ondersteuning of als input voor hun werkzaamheden.
+Officials within the municipality of Amsterdam use the data for support or as input for their work.
 
-Burgers en ondernemers hebben toegang tot (het publiek beschikbare deel van) de data via een API of web applicaties.
+Citizens and companies have access to (the publicly available part of) the data via an API or web applications.
 
-# Technische documentatie en getting started
+# Technical Documentation and getting started
 
-Zie hiervoor [GOB Documentation](https://github.com/Amsterdam/GOB-Documentation)
+You can find all technical documentation about the project in the [GOB Documentation](https://github.com/Amsterdam/GOB-Documentation) project.
