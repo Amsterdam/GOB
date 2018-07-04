@@ -82,3 +82,7 @@ De gebruikers van GOB zijn ambtenaren, burgers en ondernemers.
 Ambtenaren binnen de gemeente Amsterdam gebruiken de data ter ondersteuning of als input voor hun werkzaamheden.
 
 Burgers en ondernemers hebben toegang tot (het publiek beschikbare deel van) de data via een API of web applicaties.
+
+# Technische documentatie en getting started
+
+Zie hiervoor [GOB Documentation](https://github.com/Amsterdam/GOB-Documentation)
