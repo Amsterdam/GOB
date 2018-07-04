@@ -1,21 +1,21 @@
 # GOB
 
-Generic Disclosure of Basic Data
+Generic Disclosure of Key Registrations
 
 _Een Nederlandse versie van dit document is beschikbaar in [README](README.md)_
 
 ## Background
 
-Basic data is the raw material for a large number of municipal processes.
-Without these data, the processes can not be executed.
+Key registrations provide for basic data; the raw material for a large number of municipal processes.
+Without this data, the processes can not be executed.
 
-Basic data are recorded in basic registers (prescribed by law) and core registrations (prescribed by the Municipal Executive).
+Basic data are recorded in key registers (prescribed by law) and core registrations (prescribed by the Municipal Executive).
 
 Some of these data are taken from their own municipal facilities (source system) and partly from national facilities.
 The problem is that all these sources do not use one and the same data / message standard.
 In-house customers make use of different systems in which the basic data are shown or processed.
 
-The seven basic registers are:
+The seven key registers are:
 1. persons (BRP)
 2. addresses and buildings (BAG)
 3. value of immovable property (BR WOZ)
@@ -34,20 +34,20 @@ The eight core registrations are:
 7. monuments
 8. panorama images.
 
-Three systems are in use for retrieving data from the source or the national facility, the management, the translation and the distribution of the basic data:
+Three systems are in use for retrieving data from the source or the national facility, the management, the translation and the distribution of basic data:
 - DIVA for real estate data
 - Makelaar suite for personal details
 - Handelsregister and Neuron Communicator for BAG and WOZ data
 
 Not all systems can handle the different deliveries.
 A 'translation' is therefore necessary.
-Within GOB, the basic data from the various source registrations are stored, processed and distributed in a format as defined in
+Within GOB, basic data from the various source registrations are stored, processed and distributed in a format as defined in
 [Stelselpedia](https://www.amsterdam.nl/stelselpedia/|Stelselpedia) and
-[RSGB](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB))..
+[RSGB](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)).
 
 ## Target
 
-The aim of the project is to guarantee the delivery of high-quality basic data for municipal processes against minimal management efforts and costs.
+The target of the project is to guarantee the delivery of high-quality basic data for municipal processes against minimal management efforts and costs.
 
 With derived objectives:
 - Customized deliveries
