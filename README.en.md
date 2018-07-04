@@ -83,3 +83,7 @@ The users of GOB are civil servants, citizens and companies.
 Officials within the municipality of Amsterdam use the data for support or as input for their work.
 
 Citizens and companies have access to (the publicly available part of) the data via an API or web applications.
+
+# Technical Documentation and getting started
+
+You can find all technical documentation about the project in the [GOB Documentation](https://github.com/Amsterdam/GOB-Documentation) project.
