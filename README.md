@@ -36,7 +36,7 @@ The eight core registrations are:
 
 Three systems are in use for retrieving data from the source or the national facility, the management, the translation and the distribution of basic data:
 - DIVA for real estate data
-- Makelaar suite for personal details
+- Makelaarsuite for personal details
 - Handelsregister and Neuron Communicator for BAG and WOZ data
 
 Not all systems can handle the different deliveries.
@@ -44,6 +44,7 @@ A 'translation' is therefore necessary.
 Within GOB, basic data from the various source registrations are stored, processed and distributed in a format as defined in
 [Stelselpedia](https://www.amsterdam.nl/stelselpedia/|Stelselpedia) and
 [RSGB](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)).
+The standards set by the City of Amsterdam and the association of Dutch municipalities
 
 ## Target
 

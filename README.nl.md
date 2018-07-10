@@ -2,10 +2,12 @@
 
 **G**enerieke **O**ntsluiting **B**asisgegevens
 
+<aside class="warning">
 Let op:
-- Deze Nederlandse README bevat een globale introductie van GOB.
+:warning: Deze Nederlandse README bevat een globale introductie van GOB.
 De Nederlandse versie wordt niet actief onderhouden.
 Raadpleeg voor de meest up-to-date informatie de Engelse [README](README.md)
+</aside>
 
 ## Achtergrond
 
