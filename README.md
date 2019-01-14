@@ -1,6 +1,6 @@
-# GOB
+# Gemeentelijke Ontsluiting Basisregistraties (GOB)
 
-Generic Disclosure of Key Registrations
+Generic Access of Key Registrations 
 
 _Een Nederlandse (beperkt onderhouden) versie van dit document is beschikbaar in [README.nl](README.nl.md)_
 
