@@ -1,4 +1,4 @@
-# Gemeentelijke Ontsluiting Basisregistraties (GOB)
+# Generieke Ontsluiting Basisgegevens (GOB)
 
 Generic Access of Key Registrations 
 
